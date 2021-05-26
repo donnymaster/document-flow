@@ -1,0 +1,8 @@
+{
+    "name": "Ім'я",
+    "surname": "Прізвище",
+    "patronymic": "По батькові",
+    "email": "Пошта",
+    "phone_number": "Телефон",
+    "roles": "Ролі"
+}

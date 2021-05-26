@@ -1,0 +1,8 @@
+{
+    "column_title": "Название",
+    "column_created": "Дата создания",
+    "column_updated": "Дата обновления",
+    "role_update": "Роль была обновлена",
+    "create_form": "Форма создания новой роли",
+    "role_created": "Роль была создана!"
+}

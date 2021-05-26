@@ -1,0 +1,17 @@
+.button {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.logo {
+    padding-bottom: 24px;
+}
+
+.wrapped {
+    height: calc(100vh - 43px);
+}
+
+.lang {
+    padding-top: 20px;
+    padding-right: 35px;
+}
