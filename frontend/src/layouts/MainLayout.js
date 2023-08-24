@@ -30,56 +30,6 @@ const MainLayout = (props) => {
         </Space>
         <Menu theme="light" mode="inline">
           {getMenuLinks(links, t)}
-
-          {/* <Menu.Item key="1" icon={<DesktopOutlined />}>
-            <Link to='/'>{t('page_main')}</Link>
-          </Menu.Item>
-          <Menu.Item key="2" icon={<DesktopOutlined />}>
-            <Link to='/projects'>{t('page_projects')}</Link>
-          </Menu.Item>
-          <Menu.SubMenu key="sub1" icon={<DesktopOutlined />} title={t('sub_page_load_data')}>
-            <Menu.Item key="2">
-              <Link to="/load/students">
-                {t('page_load_student')}
-              </Link>
-            </Menu.Item>
-            <Menu.Item key="3">
-              <Link to="/load/teachers">
-                {t('page_load_teacher')}
-              </Link>
-            </Menu.Item>
-            <Menu.Item key="4">
-              <Link to="/load/faculties">
-                {t('page_load_faculties')}
-              </Link>
-            </Menu.Item>
-          </Menu.SubMenu>
-          <Menu.SubMenu key="sub2" icon={<DesktopOutlined />} title={t('sub_page_doc')}>
-            <Menu.Item key="5">
-              <Link to="/documents/created">
-                {t('page_created_doc')}
-              </Link>
-            </Menu.Item>
-            <Menu.Item key="6">
-              <Link to="/documents/templates">
-                {t('page_template_doc')}
-              </Link>
-            </Menu.Item>
-            <Menu.Item key="7">
-              <Link to="/documents/templates/create">
-                {t('page_create_template_doc')}
-              </Link>
-            </Menu.Item>
-          </Menu.SubMenu>
-          <Menu.Item key="8" icon={<DesktopOutlined />}>
-            <Link to='/users'>{t('page_users')}</Link>
-          </Menu.Item>
-          <Menu.Item key="9" icon={<DesktopOutlined />}>
-            <Link to='/roles'>{t('page_roles')}</Link>
-          </Menu.Item>
-          <Menu.Item key="10" icon={<DesktopOutlined />}>
-            <Link to='/statistics'>{t('page_statistics')}</Link>
-          </Menu.Item> */}
         </Menu>
       </Sider>
       <Layout className="site-layout">
